@@ -1,4 +1,4 @@
-package com.back.treinta.qa.PostcreateSending;
+package back.treinta.qa.PostcreateSending;
 
 import com.intuit.karate.KarateOptions;
 import com.intuit.karate.Results;
