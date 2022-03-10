@@ -1,0 +1,50 @@
+{
+  "dev": {
+    "sc01":{
+      "sender": {
+        "name": "Jesus",
+        "surname": "Ramirez",
+        "cellPhone": "3013528220",
+        "prefix": "+57",
+        "email": "alejandraruizsoto51@mipaquete.com",
+        "pickupAddress": "Calle 20 #32b 143",
+        "nit": "1152456886",
+        "nitType": "CC"
+      },
+      "receiver": {
+        "name": "Maria",
+        "surname": "Ruiz",
+        "email": "alejandraruizsoto51@gmail.com",
+        "prefix": "+57",
+        "cellPhone": "3013528220",
+        "destinationAddress": "Carrera 70 #32N 143",
+        "nit": "1152456886",
+        "nitType": "CC"
+      },
+      "productInformation": {
+        "quantity": 1,
+        "width": 22,
+        "large": 15,
+        "height": 40,
+        "weight": 1.12,
+        "forbiddenProduct": true,
+        "productReference": "JEAN A17",
+        "declaredValue": 200000
+      },
+      "locate": {
+        "originDaneCode": "11001000",
+        "destinyDaneCode": "11001000"
+      },
+      "channel": "POSTMAN",
+      "deliveryCompany": "5fceb46c8229797cb139a7aa",
+      "description": "JEANS",
+      "comments": "comentarios adicionales",
+      "paymentType": 101,
+      "valueCollection": 0,
+      "requestPickup": false,
+      "adminTransactionData": {
+        "saleValue": 200000
+      }
+    }
+  }
+}

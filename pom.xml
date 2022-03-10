@@ -11,7 +11,7 @@
         <repository>
             <id>Maven_Central</id>
             <name>Corporate Repository</name>
-            <url>https://repo1.maven.org/maven2/</url>
+            <url>https://repo.maven.org/maven2/</url>
         </repository>
     </distributionManagement>
 
@@ -23,21 +23,7 @@
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.17.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.17.1</version>
-        </dependency>
-        <dependency>
-            <groupId>net.gpedro.integrations.slack</groupId>
-            <artifactId>slack-webhook</artifactId>
-            <version>1.2.1</version>
-        </dependency>
+
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-apache</artifactId>
@@ -53,7 +39,7 @@
         <dependency>
             <groupId>com.intuit.karate</groupId>
             <artifactId>karate-core</artifactId>
-            <version>0.9.6</version>
+            <version>${karate.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
@@ -71,21 +57,6 @@
             <artifactId>cucumber-reporting</artifactId>
             <version>3.8.0</version>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.27</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>5.3.13</version>
-        </dependency>
-        <dependency>
-            <groupId>javax.activation</groupId>
-            <artifactId>activation</artifactId>
-            <version>1.1</version>
         </dependency>
     </dependencies>
 
